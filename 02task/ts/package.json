@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "board": "npm run build && node board.js",
     "dev": "nodemon"
   },
   "keywords": [],
